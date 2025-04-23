@@ -1,0 +1,8 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "LambdaFunctionArn": "arn:aws:lambda:us-east-2:637423605273:function:LogS3Upload",
+      "Events": ["s3:ObjectCreated:*"]
+    }
+  ]
+}
